@@ -1,0 +1,257 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.meeting {
+  display: flex;
+}
+
+.meeting-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-image: url("./meeting-stant.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+.meeting-image-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+.meeting-image h5 {
+  color: #f2f2f2;
+  z-index: 5;
+}
+
+.meeting-map {
+  width: 50%;
+}
+
+.contact-form-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-image: url("./pc.jpg");
+  background-position: 100% 80%;
+  background-size: cover;
+  z-index: 2;
+}
+.contact-form-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.contact-form_ h5 {
+  color: #f2f2f2;
+  z-index: 5;
+}
+
+.contact-form_ {
+  display: flex;
+}
+.arrow-left {
+  margin-right: 10px;
+}
+.arrow-right {
+  margin-left: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+.contact-form {
+  width: 50%;
+  height: 400px;
+}
+.contact-us {
+  padding: 30px 25px;
+  margin: auto;
+}
+
+form label {
+  margin: auto;
+}
+form input {
+  margin: auto;
+}
+form textarea {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 70%;
+  font-size: 9pt;
+
+  line-height: 18pt;
+  font-family: "Spartan";
+}
+
+input {
+  margin-bottom: 12pt;
+}
+
+.contact-form span {
+  font-size: 8pt;
+}
+
+em {
+  color: #f45702;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding-left: 5px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #6bd4b1;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-form button {
+  display: block;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #910000;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  margin-top: 12px;
+  margin: auto;
+}
+.contact-form button:hover {
+  background: inherit;
+  color: #910000;
+  border-bottom: 2px solid #910000;
+}
+
+::selection {
+  background: #ffc7b8;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #6bd4b1;
+  -webkit-text-fill-color: #2a293e;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@media (max-width: 1370px) {
+  .meeting-image {
+    height: 300px;
+  }
+  .contact-form-image {
+    height: 300px;
+  }
+  .contact-form {
+    height: 300px;
+  }
+  .form-home-page label,
+  .form-home-page input,
+  .form-home-page textarea {
+    display: block;
+    width: 70%;
+    font-size: 8pt;
+
+    line-height: 13pt;
+    font-family: "Spartan";
+  }
+
+  .meeting h5 {
+    font-size: 15px;
+  }
+  .contact-form_ h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 780px) {
+  .meeting h5 {
+    font-size: 12px;
+  }
+  .contact-form_ h5 {
+    font-size: 12px;
+  }
+  .meeting-image {
+    height: 200px;
+  }
+  .contact-form-image {
+    height: 200px;
+  }
+  .contact-form {
+    height: 200px;
+  }
+  .form-home-page label,
+  .form-home-page input,
+  .form-home-page textarea {
+    display: block;
+    width: 70%;
+    font-size: 6pt;
+
+    line-height: 10pt;
+    font-family: "Spartan";
+  }
+  .contact-form_ .contact-us {
+    padding: 3px 10px;
+    margin: auto;
+  }
+  .form-home-page form textarea {
+    margin-bottom: 5px;
+  }
+  .contact-form_ .contact-form button {
+    display: block;
+    line-height: 18pt;
+    padding: 0 10px;
+    border: none;
+    background: #910000;
+    color: white;
+    letter-spacing: 0;
+    transition: 0.2s all ease-in-out;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    margin-top: 12px;
+    margin: auto;
+    font-size: 11px;
+    transform: translateY(-1px);
+  }
+  .form-home-page textarea {
+    line-height: 10pt;
+    margin-bottom: 10px;
+  }
+}

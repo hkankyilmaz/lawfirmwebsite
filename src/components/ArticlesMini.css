@@ -1,0 +1,30 @@
+.article-mini-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.article-mini-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.article-mini-container img {
+  margin-right: 10px;
+}
+.article-mini-container p {
+  opacity: 0.5;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.article-mini-container h6 {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #910000;
+}

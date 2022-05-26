@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Old+Standard+TT&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@300;400&display=swap");
+
+.home-page {
+  background-image: url("../images/anayasamah.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  animation: flash 0.2s linear;
+  animation-delay: 3.5s;
+}
+.home-page-child {
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.home-page h4 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-family: "Old Standard TT";
+  animation: slider-one 2s ease-out;
+}
+.home-hr {
+  transform: translateX(60px);
+}
+
+.arrow-down {
+  position: absolute;
+  top: 93%;
+  color: white;
+  transform: translateX(-15px);
+}
+/*
+@keyframes slider-one {
+  from {
+    left: -2000px;
+  }
+  to {
+    left: 41%;
+  }
+}
+*/
+@keyframes flash {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1520px) {
+  .home-page h4 {
+    left: 30%;
+  }
+}
+
+@media (max-width: 1290px) {
+  .home-page h4 {
+    left: 20%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .home-page h4 {
+    left: 23%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .home-page h4 {
+    left: 18%;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-page h4 {
+    left: 10%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 748px) {
+  .home-page h4 {
+    left: 1%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 688px) {
+  .home-page h4 {
+    left: 10%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-page h4 {
+    left: 0;
+    font-size: 16px;
+  }
+  .arrow-down {
+    top: 80%;
+  }
+}

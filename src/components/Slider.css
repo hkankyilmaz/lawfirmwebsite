@@ -1,0 +1,160 @@
+.articles {
+  margin: auto;
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.main-articles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.article-container_ {
+  background-image: linear-gradient(to right, white, #f2f2f2);
+  padding-top: 50px;
+}
+
+.article-container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+}
+.article-container-header p {
+  text-align: center;
+  font-family: "Old Standard TT";
+  font-size: 20px;
+}
+.article-container-header h3 {
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  color: #910000;
+}
+.line-articles {
+  position: absolute;
+  display: inline-block;
+  border-top: 2px solid rgb(0, 0, 0, 0.5);
+  width: 50px;
+  left: -30%;
+  top: 50%;
+}
+.article-container-header h4 {
+  margin: auto;
+  font-family: "Old Standard TT";
+  font-size: 25px;
+  color: #910000;
+}
+
+.slider-container {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+}
+
+.slider-news-social-container {
+  display: flex;
+  padding: 75px;
+}
+
+.news {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  margin: auto;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.social .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+.social h3 {
+  font-size: 30px;
+  font-family: "Yanone Kaffeesatz";
+  letter-spacing: 0.5px;
+  color: black;
+  opacity: 0.7;
+}
+.social hr {
+  color: black;
+}
+
+.twitter {
+  margin-right: 13px;
+  cursor: pointer;
+}
+.instagram {
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.youtube {
+  margin-right: 13px;
+  cursor: pointer;
+}
+.facebook {
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  color: #1d9bf0;
+}
+.instagram:hover {
+  color: #ed003c;
+}
+
+.youtube:hover {
+  color: red;
+}
+.facebook:hover {
+  color: #0a82ed;
+}
+
+@media (max-width: 960px) {
+  .articles .article-title {
+    font-size: 25px;
+  }
+  .articles .article-text {
+    font-size: 15px;
+  }
+
+  .article-container-header h3 {
+    font-size: 25px;
+  }
+  .article-container-header p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .article-container {
+    margin-right: 0;
+    padding: 0 30px;
+  }
+}

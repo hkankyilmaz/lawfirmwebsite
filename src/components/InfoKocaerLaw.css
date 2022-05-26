@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@300;400&display=swap");
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Old Standard TT";
+  font-size: 35px;
+  font-weight: 300;
+}
+.p-two {
+  font-size: 20px;
+  font-family: "Old Standard TT";
+}
+@media (max-width: 1140px) {
+  .info-container {
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  .info-container {
+    padding: 20px 20px;
+  }
+  .info-container h2 {
+    font-size: 25px;
+  }
+  .info-container .p-two {
+    font-size: 15px;
+  }
+
+  .info-container img {
+    width: 225px;
+    height: 125px;
+  }
+}

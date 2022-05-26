@@ -1,0 +1,76 @@
+.info-container___ {
+  padding: 60px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-one {
+  color: red;
+  font-size: 18px;
+  font-family: "Yanone Kaffeesatz";
+  opacity: 0.5;
+}
+
+.info-container___ h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  margin-bottom: 20px;
+  font-family: "Old Standard TT";
+  font-size: 35px;
+  font-weight: 300;
+  z-index: 2;
+}
+
+.line-info-two {
+  border-top: 2px solid white;
+  margin-right: 10px;
+  width: 50px;
+}
+.p-two___ {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Old Standard TT";
+  z-index: 2;
+}
+
+.container___ {
+  background: url("./office2.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 65%;
+  position: relative;
+  z-index: -2;
+}
+
+.container-child___ {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+@media (max-width: 1140px) {
+  .info-container___ {
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  .info-container___ {
+    padding: 20px 20px;
+  }
+  .info-container___ h2 {
+    font-size: 25px;
+  }
+  .info-container___ .p-two___ {
+    font-size: 15px;
+  }
+  .line-info-two {
+    width: 25px;
+  }
+}

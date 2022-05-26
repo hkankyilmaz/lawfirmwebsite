@@ -1,0 +1,36 @@
+.deniz-info-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.deniz-info-text {
+  font-size: 18px;
+}
+
+.denizsuna-info-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.denizsuna-info-container img {
+  height: 42vh;
+  width: 280px;
+  margin-right: 50px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background: black;
+}
+
+.denizsuna-info-container-two {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Old Standard TT", serif;
+  margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  .denizsuna-info-container-two p {
+    line-height: 21px;
+    font-size: 15px;
+  }
+}

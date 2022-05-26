@@ -1,0 +1,71 @@
+.working-zone-title {
+  text-align: left;
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+}
+
+.working-zone-text {
+  text-align: left;
+  font-family: "Old Standard TT", serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0, 0.9);
+}
+
+.working-zone {
+  padding: 40px 90px;
+  position: relative;
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+  margin: 50px 0px;
+}
+
+.zones-iconss {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.working-zone-header {
+  position: relative;
+  text-align: left;
+  margin-top: 40px;
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.working-zone-headers-line {
+  position: absolute;
+  border-top: 3px solid #910000;
+  width: 40px;
+  height: 5px;
+  left: -50px;
+  transform: translateY(13px);
+}
+
+.working-zone:hover {
+  background-color: rgb(145, 0, 0, 0.1);
+}
+
+.working-zone:hover .zones-iconss {
+  color: #910000;
+}
+
+.working-zone:hover .working-zone-title {
+  color: #910000;
+}
+
+@media (max-width: 960px) {
+  .working-zone {
+    padding: 10px 15px;
+  }
+  .zones-iconss {
+    position: static;
+    left: 0;
+    top: 0;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
+}

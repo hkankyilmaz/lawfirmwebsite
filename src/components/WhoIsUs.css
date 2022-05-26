@@ -1,0 +1,65 @@
+.whoisus-container {
+  height: 900px;
+
+  background-image: url("./menlawyer2.png"), url("./womenlawyer.png"),
+    url("./mahkemeamerika.png");
+  background-repeat: no-repeat;
+  background-position: 3% 50%, 95% 45%, 48% 100%;
+  background-size: 200px, 200px, 300px;
+}
+
+.whoisus-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.whoisus-burak {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 15%;
+  top: 10%;
+}
+.whoisus-burak h3 {
+  text-align: left;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #910000;
+}
+.whoisus-burak p {
+  text-align: justify;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.whoisus-deniz {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 30%;
+  top: 33%;
+}
+.whoisus-deniz h3 {
+  text-align: right;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #910000;
+}
+
+.whoisus-deniz p {
+  text-align: justify;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.whoisus-hr {
+  margin-left: 30%;
+  margin-right: 30%;
+  transform: translateY(285px);
+  color: #910000;
+}

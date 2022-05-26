@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  filter: blur(0px);
+  height: 520px;
+  width: 100%;
+  background-color: hsla(200, 40%, 30%, 0.4);
+  background-image: url("slider2.jpg");
+  background-repeat: repeat-x;
+  background-position: 0 20%;
+  background-size: 1200px;
+
+  animation: 50s para infinite linear;
+}
+
+.loading-text {
+  font-family: "Kaushan Script";
+  font-size: 50px;
+  color: #fff;
+}
+.bg h3 {
+  color: red;
+  font-family: "Kaushan Script";
+  transform: translateX(35%);
+}
+
+@keyframes para {
+  100% {
+    background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%,
+      400px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bg {
+    height: 400px;
+  }
+}
+
+@media (max-width: 960px) {
+  .bg {
+    height: 350px;
+  }
+}
